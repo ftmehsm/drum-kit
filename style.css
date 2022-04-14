@@ -1,0 +1,45 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-size: 10px;
+    background: url(/sounds/background.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+.keys {
+    margin-top: 220px;
+    display: flex;
+    flex: 1;
+    min-height: 50vh;
+    align-items: center;
+    justify-content: center;
+  }
+  .key {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.4rem;
+    padding: 0.4rem .4rem;
+    transition: all .09s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+  }
+  kbd {
+    display: block;
+    font-size: 4rem;
+  }
+  .sound {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+  }
+  .playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
